@@ -25,7 +25,7 @@ export default async function ProjectsPage({ searchParams }: Props) {
   const chip = (active: boolean) =>
     `rounded-full border px-3 py-1 text-sm transition ${
       active
-        ? "border-gray-900 bg-gray-900 text-white"
+        ? "border-gray-900 bg-gray-900 text-white dark:border-gray-100 dark:bg-gray-100 dark:text-gray-900"
         : "border-gray-200 text-gray-600 hover:bg-gray-50"
     }`;
 
